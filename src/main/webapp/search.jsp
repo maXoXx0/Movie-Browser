@@ -29,30 +29,17 @@
 
         <div class="button-container">
             <button type="submit" class="search-button" >Search</button>
-            <button type="button" class="clear-button" name="clearButton">Clear</button>
+            <button type="reset" class="clear-button" name="clearButton" >Clear</button>
         </div>
         </form>
     </div>
 </div>
 
 <%--End of search container--%>
+
 <%--Rsulult container--%>
-<div class="wrapper-search">
-    <div class="result-highlight">
-        <img src="img/movie_poster.jpg" class="movie-poster">
-        <div class="movie-info">
-            <div class="movie-tittle">
-                <h3>Dragon Ball Super: Super Hero</h3>
-            </div>
-            <div class="release-date">
-                6 June 2022
-            </div>
-            <div class="movie-description">
-                <p>The Red Ribbon Army, an evil organization that was once destroyed by Goku in the past, has been reformed by a
-                    group of people who have created new and mightier Androids, Gamma 1 and Gamma 2, and seek vengeance against Goku and his family.</p>
-            </div>
-        </div>
-    </div>
-</div>
+<jsp:include page="search-result.jsp"/>
+<%--End of Result container--%>
+    
 </body>
 </html>
