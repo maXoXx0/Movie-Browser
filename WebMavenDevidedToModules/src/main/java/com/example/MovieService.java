@@ -11,7 +11,7 @@ public class MovieService {
 
 //      Creating URL
         String url =
-                "https://api.themoviedb.org/3/search/multi?api_key=[INSERT_HERE_YOUR_API_KEY]=" + searchContent;
+                "https://api.themoviedb.org/3/search/multi?api_key=[INSERT_YOUR_API_KEY]=" + searchContent;
         URL object = new URL(url);
 
 //      Creating connection
